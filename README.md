@@ -1,6 +1,6 @@
 # Web Presentations
 
-Status: local repo scaffold
+Status: active public GitHub Pages repo
 
 ## Purpose
 
@@ -14,13 +14,13 @@ tracked public repo.
 
 ## Public URL Shape
 
-Planned GitHub repository:
+GitHub repository:
 
 ```text
 amarfin83/web-presentations
 ```
 
-Planned GitHub Pages URLs:
+GitHub Pages URLs:
 
 ```text
 https://amarfin83.github.io/web-presentations/
@@ -32,6 +32,8 @@ https://amarfin83.github.io/web-presentations/<project-slug>/<presentation-slug>
 - `index.html` - public landing index for available presentations.
 - `assets/` - public shared assets that are safe to reuse across presentations.
 - `_templates/` - public presentation folder templates and publishing notes.
+- `Values/` - public presentation area for the Values / Value Driven AI
+  project.
 - `<project-slug>/<presentation-slug>/` - one published presentation per folder,
   each with its own `index.html`.
 - `_local_state/` - local-only AI Harness operating state. This folder is
@@ -55,8 +57,8 @@ https://amarfin83.github.io/web-presentations/<project-slug>/<presentation-slug>
   while the repo is local-only.
 - Local continuation state: `_local_state/HANDOFF.md`.
 
-## Next Setup Step
+## Next Presentation Step
 
-After GitHub CLI authorization is restored, create the public remote repository
-`amarfin83/web-presentations`, push this repo, and enable GitHub Pages from the
-`main` branch root.
+Add the first presentation under `Values/<presentation-slug>/`, include its
+own `index.html`, update the public root `index.html` with a link, then commit
+and push.
