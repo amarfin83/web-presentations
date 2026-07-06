@@ -1,0 +1,37 @@
+:root {
+  --am-color-bg-dark: #14161A;
+  --am-color-bg-panel: #1E1E1E;
+  --am-color-bg-card: #1C1F26;
+  --am-color-bg-alt: #1E1E1E;
+  --am-color-bg-light: #FFFFFF;
+  --am-color-bg-warm: #F5F2EE;
+  --am-color-accent: #C5B29F;
+  --am-color-accent-strong: #B98D62;
+  --am-color-text: #FFFFFF;
+  --am-color-text-dark: #14161A;
+  --am-color-text-muted-light: #5A5E65;
+  --am-color-muted: #B0B4BA;
+  --am-color-dim: #6A6E75;
+  --am-color-blue-gray: #C5B29F;
+  --am-color-line-light: #D9D9D9;
+  --am-color-line-dark: #363636;
+  --am-color-line-subtle: #2C2F35;
+  --am-font-heading: "Cormorant", Georgia, "Times New Roman", serif;
+  --am-font-body: "Manrope", "Helvetica Neue", Arial, sans-serif;
+  --am-h1: clamp(44px, 7vw, 65px);
+  --am-h2: clamp(36px, 5vw, 50px);
+  --am-h3: clamp(28px, 4vw, 36px);
+  --am-body: 16px;
+  --am-small: 14px;
+  --am-number: 20px;
+  --am-container: 800px;
+  --am-container-wide: 1120px;
+  --am-diagonal-height: 64px;
+  --am-space-xs: 8px;
+  --am-space-sm: 15px;
+  --am-space-md: 24px;
+  --am-space-lg: 48px;
+  --am-space-xl: 80px;
+  --am-line: 0.5px;
+  --am-radius: 0;
+}
