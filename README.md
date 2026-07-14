@@ -34,6 +34,7 @@ https://amarfin83.github.io/web-presentations/<project-slug>/<presentation-slug>
 - `_templates/` - public presentation folder templates and publishing notes.
 - `Values/` - public presentation area for the Values / Value Driven AI
   project.
+- `family/` - public family-oriented interactive catalogs.
 - `<project-slug>/<presentation-slug>/` - one published presentation per folder,
   each with its own `index.html`.
 - `_local_state/` - local-only AI Harness operating state. This folder is
@@ -57,8 +58,8 @@ https://amarfin83.github.io/web-presentations/<project-slug>/<presentation-slug>
   while the repo is local-only.
 - Local continuation state: `_local_state/HANDOFF.md`.
 
-## Next Presentation Step
+## Published Presentations
 
-Add the first presentation under `Values/<presentation-slug>/`, include its
-own `index.html`, update the public root `index.html` with a link, then commit
-and push.
+- `Values/VDB_AI_Diagnostics_Result/` - VDB AI Diagnostics Result.
+- `family/pokrovskoe-family-activities/` - interactive family activities
+  catalog for the Novaya Riga / Pokrovskoe area.
