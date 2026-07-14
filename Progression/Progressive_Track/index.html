@@ -386,7 +386,7 @@
     .am-row-title {
       margin: 0;
       font-family: var(--am-font-heading);
-      font-size: 27px;
+      font-size: 25px;
       font-weight: 500;
       line-height: 1.1;
     }
@@ -451,12 +451,15 @@
     }
 
     .am-stage-card__title {
-      min-height: 66px;
+      height: 84px;
       margin: 52px 0 14px;
       font-family: var(--am-font-heading);
-      font-size: 31px;
+      font-size: 27px;
       font-weight: 500;
       line-height: 1;
+      letter-spacing: -.015em;
+      overflow-wrap: normal;
+      word-break: normal;
     }
 
     .am-stage-card p { margin: 0; color: var(--am-color-muted); font-size: 17px; line-height: 1.55; }
@@ -682,7 +685,7 @@
       .am-output-box { padding: 28px 24px; }
       .track-output-line { gap: 18px; }
       .am-stage-card { min-height: 0; }
-      .am-stage-card__title { min-height: 0; margin-top: 40px; }
+      .am-stage-card__title { height: auto; min-height: 0; margin-top: 40px; font-size: 29px; }
       .track-facilitator { grid-template-columns: 1fr; gap: 18px; }
       .track-context-grid { gap: 44px; }
       .track-cta { margin-top: 62px; gap: 36px; }
